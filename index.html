@@ -28,9 +28,9 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>					
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#gigs">Gigs</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#achievements">Achievements</a></li>
                 </ul>
             </div>
 			<p style='color:white'>Theme by <a href='startbootstrap.com' style="color:white">startbootstrap</a></p>
@@ -88,7 +88,14 @@
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Data Engineer</h3>
+                            <h4 class="mb-0">Search Engine Evaluator</h4>
+                            <div class="subheading mb-3">Appen (Independent Contractor)</div>
+                            <p>Search Engine Evaluation</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2017 - Present</span></div>
+                    </div><div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h4 class="mb-0">Data Engineer</h4>
                             <div class="subheading mb-3">Directorate General of Taxes, Ministry of Finance, Republic of Indonesia</div>
                             <p>ETL Pipeline Development, Advanced SQL Programming, Data Collection/Scraping</p>
                         </div>
@@ -96,7 +103,7 @@
                     </div>
 					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Applet Test Engineer</h3>
+                            <h4 class="mb-0">Applet Test Engineer</h4>
                             <div class="subheading mb-3">IDEMIA (formerly known as Oberthur Technologies)</div>
                             <p>Applet Alpha Testing using Efficient Test Case Development</p>
                         </div>
@@ -104,7 +111,7 @@
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Developer</h3>
+                            <h4 class="mb-0">Web Developer</h4>
                             <div class="subheading mb-3">Astra Graphia Information Technology</div>
                             <p>Web Apps Development under .NET and ExtJS Ecosystems</p>
                         </div>
@@ -116,11 +123,36 @@
             <hr class="m-0" />
             
             <!-- Skills-->
-            <section class="resume-section" id="skills">
+            <section class="resume-section" id="gigs">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <!--<div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
+                    <h2 class="mb-5">Gigs</h2>
+                    <!--<div class="subheading mb-0">Web Scraping & Data Collection</div>-->
+					<h4> Machine Learning </h4>
+					<div class="subheading mb-3"> potter_starwars: A Desktop-based Apps that predicts the the user's hum or whistle to be either Harry Potter or Starwars Theme song</div>
+					<p>Based on the assignment of the Principles of Machine Learning Modules (ECS7020P) at QMUL. <br />Dataset: <a href="https://www.kaggle.com/datasets/jesusrequena/mlend-hums-and-whistles">MLEnd Hums and Whistles</a> | 
+					Tech Stacks: Python (used libs: PyAudio, Librosa, Scikit-learn, Keras)<br />
+					Find further details at <a href="https://github.com/akbarriki/potter_starwars">github repo</a></p><br />
+					<h4> Data Annotation </h4>
+					<div class="subheading mb-3">Income category annotation based on categories from <a href="https://mint.intuit.com/mint-categories">Intuit Mint</a></div>
+					<p>Python (used libs: json, pandas)</p><br />
+					<h4> Web Scraping/Data Collection </h4>
+					<div class="subheading mb-3">Scraping all downloadable contents (profiles, brochures, documents, etc) from  <a href="https://www.myagedcare.gov.au/">Myagedcare Australia</a></div>
+					<p>Tech stacks: Python (used libs: pandas, beautifulsoup), Google APIs</p>
+					<div class="subheading mb-3">Scraping children e-books and their metadata (authors, country of origin, etc) from  <a href="https://literacycloud.org">Room to Read</a> and <a href="https://reader.letsreadasia.org">Let's Read Asia</a></div>
+					<p>Tech stacks: Python (used libs: pandas, beautifulsoup), Google APIs</p>
+					<div class="subheading mb-3">Scraping more than 25 Black-owned Business Directories in the UK and US</div>
+					<p>Tech stacks: Python (used libs: pandas, beautifulsoup, selenium-webdriver), Octoparse</p>
+					<div class="subheading mb-3">Scraping US-based Dispensaries (e.g. Weedmaps and Leafly)</div>
+					<p>Tech stacks: Python (used libs: pandas, beautifulsoup, selenium-webdriver), Octoparse</p>
+					<div class="subheading mb-3">Scraping Movies and TV Shows aired in multiple platforms (e.g. Netflix, Hulu, PrimeVideo, Disney+, etc)</div>
+					<p>Tech stacks: Python (used libs: pandas, beautifulsoup), Pentaho Data Integration</p><br />
+					
+					<h4> Data Cleansing, Matching, and Consolidation </h4>
+                    <div class="subheading mb-3">Matching US-based Business Entities with SEC Dataset</div>
+					<p>Tech stacks: Python (user-defined distance scoring)</p>
+					<div class="subheading mb-3">Matching All UK-based address with UK Postal Address Dataset</div>
+					<p>Tech stacks: Oracle PL/SQL (user-defined distance scoring)</p>
+					<!--<ul class="list-inline dev-icons">
                         <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                         <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
                         <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
@@ -156,26 +188,30 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
+            <!-- Testimonials-->
+            <section class="resume-section" id="testimonials">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
+                    <h2 class="mb-5">Testimonials</h2>
                     <!--<p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
                     <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>-->
-					lorem ipsum dolor sit amet
+					<center><img src='assets/img/testimonials1.png'/><!--<img src='assets/img/testimonials2.png' />--></center>
                 </div>
             </section>
             <hr class="m-0" />
             <!-- Awards-->
-            <section class="resume-section" id="awards">
+            <section class="resume-section" id="achievements">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <h2 class="mb-5">Achievements</h2>
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                             Top 3 Best Extended Abstract - Research and Scholarship Festival - Directorate General of Taxes (2022)
                         </li>
                         <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Upwork 100% Job Success Rate (2021-present)
+                        </li>
+						<li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                             LPDP Scholarship Awardee - Ministry of Finance, Republic of Indonesia (2019)
                         </li>
